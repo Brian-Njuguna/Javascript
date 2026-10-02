@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+   
+    
+    <table class="book">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Read</th>
+            <th>Action</th>
+        </tr>
+       
+        </thead>
+        <tbody id="bookTable">
+            
+        </tbody>
+        
+    </table>
+    
+   
+    <td><button id="btn">Add Book</button></td>
+    <form id="bookForm">
+        <label for="name">Book name:</label>
+        <input type="text" id="name" required>
+
+        <label for="author">Book author</label>
+        <input type="text" id="author" required>
+
+        <label for="read">Read:</label>
+        <input type="checkbox" id="read">
+
+        <button type="submit">Add</button>
+    </form>
+    <script src="books.js"></script>
+
+
+
+    
+</body>
+</html>

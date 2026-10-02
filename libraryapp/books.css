@@ -1,0 +1,13 @@
+.book {
+    border-collapse: collapse;
+    border: 5px solid red;
+}
+
+.book th,
+.book td {
+    border: 2px solid black;
+    padding: 10px;
+}
+#bookForm{
+    display: none;
+}
